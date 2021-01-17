@@ -57,7 +57,6 @@ interface Props {
 
 export const Editor: React.FC<Props> = (props) => {
   const { text, setText } = props
-  console.log(props)
   const [showModal, setShowModal] = useState(false)
 
   return (
